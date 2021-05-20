@@ -1,0 +1,19 @@
+.footer {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5px 0px;
+  background-color: black;
+  color: white;
+  bottom: 0px;
+  -webkit-text-decoration: italic;
+          text-decoration: italic;
+  margin-top: auto;
+  z-index: -1;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+button {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+  font-size: 2rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.main-btn {
+  width: 100%;
+  font-size: 3rem;
+  font-family: 'Texturina', serif;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  background-color: #e6ae5c;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 2px solid #be7e1e;
+}
+
+.main-btn:hover {
+  text-shadow: 0 0 1px black;
+  font-weight: 500;
+  background-color: #eabe7b;
+}
+
+.main-btn:active {
+  text-shadow: 0 0 1px black;
+  font-size: 2.5rem;
+}
+
+.list-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Domine', serif;
+  width: 100%;
+  border: none;
+  background-color: #e67c5c;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 1px solid #be431e;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.list-btn:hover {
+  text-shadow: 0 0 1px black;
+  background-color: #eabe7b;
+}
+
+.list-btn:active {
+  text-shadow: 0 0 1px black;
+  font-size: 2.5rem;
+}
+
+.displayed-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px;
+  text-align: justify;
+  font-size: 1.5rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: 'Catamaran', sans-serif;
+  background-color: #f8e9d3;
+}
+
+.hidden-element {
+  display: none;
+}
+
+.arrow {
+  background-color: rgba(230, 174, 92, 0);
+  font-size: 3rem;
+}
+/*# sourceMappingURL=DragonBallAPI.css.map */

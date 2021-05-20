@@ -1,0 +1,13 @@
+.footer{
+    position:fixed;
+    display: flex;
+    width:100%;
+    height:fit-content;
+    padding:5px 0px;
+    background-color: black;
+    color:white;
+    bottom:0px;
+    text-decoration: italic;
+    margin-top:auto;
+    z-index: -1;
+}
